@@ -457,7 +457,7 @@ class CIBlockPropertyCProp
 
         ob_start(); ?>
         <tr>
-            <td align="right" valign="top"> <?= $title?> :</td>
+            <td align="right" valign="top"> <?= $title ?> :</td>
             <td>
                 <? CFileMan::AddHTMLEditorFrame(
                     $code,
